@@ -48,44 +48,6 @@ class ViewController: UIViewController {
             }
             payTable.text = myBuffer
         }
-        /*
-        switch(firstDaysPay.text!, days.text!, Int(firstDaysPay.text!), Int(days.text!)){
-        case (_, _, nil, nil):
-            payTable.text = "Please enter the first day's pay and the number of days as a whole number then click the calculate button below."
-        case (_, _, nil, _):
-            payTable.text = "Please add the first day's pay as a whole number then click the 'Calculate' button below."
-        case (_, _, _, nil):
-            payTable.text = "Please add the number of days as a whole number then click the 'Calculate' button below."
-        case ("", "", _, _):
-            payTable.text = "Please Enter the first day's pay and the number of the days to calculate, then click the 'Calculate' button below."
-        case ("", _, _, _):
-            payTable.text = "Please add the first day's pay then click the 'Calculate' button below."
-        case (_, "", _, _):
-            payTable.text = "Please add the number of days then click the 'Calculate' button below."
-        default:
-            payTable.text = "ok"
-            
-        }
-        */
-        /*
-        //let numberOfDaysStr = days.text
-        if firstDaysPay!.text!.isEmpty && days.text!.isEmpty{
-            payTable.text = "Please Enter the first day's pay and the number of the days to calculate."
-            
-        }
-        else if days.text!.isEmpty{
-           payTable.text = "Please Enter the number of days."
-        } else if firstDaysPay!.text!.isEmpty(){
-           
-        }
-        //let numberOfDays: Int = Int(numberOfDaysStr!)!
-        //let daysPayStr = firstDaysPay.text; let daysPay: Int = Int(daysPayStr!)!
-        
-        //TODO: insert code
-        
-        
-        payTable.text = String(describing: numberOfDays) + String(describing: daysPay)
-        */
     }
     
 }
